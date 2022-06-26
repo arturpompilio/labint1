@@ -1,4 +1,6 @@
-name = 'gray_image';
+clear();
+
+name = 'imagem';
 fid = fopen(strcat(name,'.mif'));
 while (1)
     tline = fgetl(fid);
@@ -12,7 +14,7 @@ while (1)
     end
 end
 
-z = zeros(384*256,1);
+z = zeros(256*320,1);
 
 while (1)
     tline = fgetl(fid);
@@ -20,24 +22,15 @@ while (1)
         break;
     end
     [address str] = strtok(tline);
-    [token str] = strtok(str); % skip colon
-    token = strtok(str); % get value
-    value = sscanf(token,'%x');
-    n = length(address);
-    k = strfind(address,'[');
-    if (k>0)
-        a1 = sscanf(address(k+1:n),'%x')+1;
-        k = strfind(address,'..');
-        a2 = sscanf(address(k+2:n),'%x')+1;
-        z(a1:a2) = value;
-    else
-        a1 = sscanf(address,'%x')+1;
-        z(a1) = value;
-    end
+    [token str] = strtok(str);
+    token = strtok(str);
+    indice = sscanf(address, '%u');
+    value = sscanf(token,'%u');
+
+    z(indice+1) = value;
 end
 
 zi = uint8(z);
-newZ = nonzeros(zi);
-zx = reshape(newZ,256,384);
 
+zx = reshape(zi,256,320);
 imwrite(zx,strcat(name,'.bmp'));
