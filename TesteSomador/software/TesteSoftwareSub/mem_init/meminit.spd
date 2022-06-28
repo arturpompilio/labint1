@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<simPackage>
+<file path="hdl_sim/imagem1.dat" type="DAT" initParamName="INIT_FILE" memoryPath="MemoriaImagem1" />
+<file path="hdl_sim/imagem2.dat" type="DAT" initParamName="INIT_FILE" memoryPath="MemoriaImagem2" />
+<file path="hdl_sim/SistemaEmbarcadoSubtrator_MemoriaPrograma.dat" type="DAT" initParamName="INIT_FILE" memoryPath="MemoriaPrograma" />
+<file path="imagem1.hex" type="HEX" initParamName="INIT_FILE" memoryPath="MemoriaImagem1" />
+<file path="imagem2.hex" type="HEX" initParamName="INIT_FILE" memoryPath="MemoriaImagem2" />
+<file path="SistemaEmbarcadoSubtrator_MemoriaPrograma.hex" type="HEX" initParamName="INIT_FILE" memoryPath="MemoriaPrograma" />
+</simPackage>

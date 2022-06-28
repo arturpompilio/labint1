@@ -1,0 +1,94 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/Documents/quartusIIdata/TesteSomador/software/TesteSoftwareSub/obj/default/runtime/sim/mentor
+vSeparador
+Z1 !s110 1656351246
+!i10b 1
+!s100 aH[7CmP<M2d@zA===8oW<0
+IT8:RR:z7Qm61f]aNcO4Ni1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1656334319
+8D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../Separador.v
+FD:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../Separador.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1656351246.000000
+!s107 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../Separador.v|
+!s90 -reportprogress|300|D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../Separador.v|
+!i113 1
+Z5 tCvgOpt 0
+n@separador
+vSistemaEmbarcadoSubtrator_tb
+!s110 1656374320
+!i10b 1
+!s100 Nl[?>0f><JW;WI0n[noa82
+IfCQ_8oJma`Xm[Dl>KbLYZ1
+R2
+R0
+w1656349206
+8D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/SistemaEmbarcadoSubtrator_tb.v
+FD:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/SistemaEmbarcadoSubtrator_tb.v
+L0 6
+R3
+r1
+!s85 0
+31
+!s108 1656374320.000000
+!s107 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/SistemaEmbarcadoSubtrator_tb.v|
+!s90 -reportprogress|300|D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/SistemaEmbarcadoSubtrator_tb.v|
+!i113 1
+R5
+n@sistema@embarcado@subtrator_tb
+vTestePlatSub
+R1
+!i10b 1
+!s100 ZK3=7>6J8=Hm>jn1efM7P0
+IDHSh5FjWEUaz0mfnN9mML3
+R2
+R0
+w1656334763
+8D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../TestePlatSub.v
+FD:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../TestePlatSub.v
+L0 19
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../TestePlatSub.v|
+!s90 -reportprogress|300|D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../TestePlatSub.v|
+!i113 1
+R5
+n@teste@plat@sub
+vTestePlatSubTB
+R1
+!i10b 1
+!s100 8?d_V[z@7N_;C6MbT;R[82
+If9WAaZd^lTaTXlinJ]ZTg0
+R2
+R0
+w1656335398
+8D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../TestePlatSubTB.v
+FD:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../TestePlatSubTB.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../TestePlatSubTB.v|
+!s90 -reportprogress|300|D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/mentor/../../../TestePlatSubTB.v|
+!i113 1
+R5
+n@teste@plat@sub@t@b

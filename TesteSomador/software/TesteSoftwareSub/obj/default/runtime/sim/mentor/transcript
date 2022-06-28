@@ -1,0 +1,1092 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do load_sim.tcl
+# obj/default/runtime/sim
+# [exec] file_copy
+# List Of Command Line Aliases
+# 
+# file_copy                                         -- Copy ROM/RAM files to simulation directory
+# 
+# dev_com                                           -- Compile device library files
+# 
+# com                                               -- Compile the design files in correct order
+# 
+# elab                                              -- Elaborate top level design
+# 
+# elab_debug                                        -- Elaborate the top level design with novopt option
+# 
+# ld                                                -- Compile all the design files and elaborate the top level design
+# 
+# ld_debug                                          -- Compile all the design files and elaborate the top level design with -novopt
+# 
+# 
+# 
+# List Of Variables
+# 
+# TOP_LEVEL_NAME                                    -- Top level module name.
+#                                                      For most designs, this should be overridden
+#                                                      to enable the elab/elab_debug aliases.
+# 
+# SYSTEM_INSTANCE_NAME                              -- Instantiated system module name inside top level module.
+# 
+# QSYS_SIMDIR                                       -- Platform Designer base simulation directory.
+# 
+# QUARTUS_INSTALL_DIR                               -- Quartus installation directory.
+# 
+# USER_DEFINED_COMPILE_OPTIONS                      -- User-defined compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_ELAB_OPTIONS                         -- User-defined elaboration options, added to elab/elab_debug aliases.
+# 
+# USER_DEFINED_VHDL_COMPILE_OPTIONS                 -- User-defined vhdl compile options, added to com/dev_com aliases.
+# 
+# USER_DEFINED_VERILOG_COMPILE_OPTIONS              -- User-defined verilog compile options, added to com/dev_com aliases.
+#  ld
+# [exec] dev_com
+# [exec] com
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:16 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/verbosity_pkg.sv -work altera_common_sv_packages 
+# -- Compiling package verbosity_pkg
+# 
+# Top level modules:
+# 	--none--
+# End time: 20:58:16 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:16 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0
+# End time: 20:58:16 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:16 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv -L altera_common_sv_packages -work error_adapter_0 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# End time: 20:58:17 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:17 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_005.v -work avalon_st_adapter_005 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_005
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_005
+# End time: 20:58:17 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:17 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter.v -work avalon_st_adapter 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter
+# End time: 20:58:17 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:17 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_width_adapter.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_rsp_width_adapter 
+# -- Compiling module altera_merlin_width_adapter
+# 
+# Top level modules:
+# 	altera_merlin_width_adapter
+# End time: 20:58:17 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:17 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_address_alignment.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_rsp_width_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 20:58:17 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:18 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_rsp_width_adapter 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 20:58:18 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:18 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_mux_001.sv -L altera_common_sv_packages -work rsp_mux_001 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_mux_001
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_mux_001
+# End time: 20:58:18 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:18 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux_001 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 20:58:18 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:18 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_mux.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_mux
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_mux
+# End time: 20:58:18 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:19 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work rsp_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 20:58:19 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:19 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_demux.sv -L altera_common_sv_packages -work rsp_demux 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_demux
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_demux
+# End time: 20:58:19 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:19 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_mux_003.sv -L altera_common_sv_packages -work cmd_mux_003 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_mux_003
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_mux_003
+# End time: 20:58:19 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:20 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux_003 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 20:58:20 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:20 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_mux.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_mux
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_mux
+# End time: 20:58:20 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:20 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_arbitrator.sv -L altera_common_sv_packages -work cmd_mux 
+# -- Compiling module altera_merlin_arbitrator
+# -- Compiling module altera_merlin_arb_adder
+# 
+# Top level modules:
+# 	altera_merlin_arbitrator
+# End time: 20:58:21 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:21 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_demux_001.sv -L altera_common_sv_packages -work cmd_demux_001 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_demux_001
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_demux_001
+# End time: 20:58:21 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:21 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_demux.sv -L altera_common_sv_packages -work cmd_demux 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_demux
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_demux
+# End time: 20:58:21 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:21 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter
+# End time: 20:58:22 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:22 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_uncmpr.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_uncompressed_only
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_uncompressed_only
+# End time: 20:58:22 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:22 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_13_1.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_burstwrap_increment
+# -- Compiling module altera_merlin_burst_adapter_adder
+# -- Compiling module altera_merlin_burst_adapter_subtractor
+# -- Compiling module altera_merlin_burst_adapter_min
+# -- Compiling module altera_merlin_burst_adapter_13_1
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_13_1
+# End time: 20:58:23 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:23 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_merlin_burst_adapter_new
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(500): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(501): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(502): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(503): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(504): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(505): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(506): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(507): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(508): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(509): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(511): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(512): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(513): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(514): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(515): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(516): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(517): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(518): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(519): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(520): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(521): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(522): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(523): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(526): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(527): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(614): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(615): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(616): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(617): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(618): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(619): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(620): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(621): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(622): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(623): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(624): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(625): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(746): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(762): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(860): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(861): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(862): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(863): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(864): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(865): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(866): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(867): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(900): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(901): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(902): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(903): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(940): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(942): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(945): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(947): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1040): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1041): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1042): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1043): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1044): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1045): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1046): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1047): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1048): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1049): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1084): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1085): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1086): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1087): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1088): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1089): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1104): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1106): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1206): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1207): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1208): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1209): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1210): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1211): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1212): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1213): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1214): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1215): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1216): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1256): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1257): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1258): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1259): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1260): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1261): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1291): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_adapter_new.sv(1294): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_merlin_burst_adapter_new
+# End time: 20:58:23 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 92
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:24 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_incr_burst_converter.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_incr_burst_converter
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_incr_burst_converter.sv(266): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_incr_burst_converter.sv(268): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_incr_burst_converter.sv(283): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_incr_burst_converter.sv(285): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_incr_burst_converter
+# End time: 20:58:25 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 4
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:25 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_wrap_burst_converter.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_wrap_burst_converter
+# 
+# Top level modules:
+# 	altera_wrap_burst_converter
+# End time: 20:58:25 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:25 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_default_burst_converter.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_default_burst_converter
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_default_burst_converter.sv(102): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# 
+# Top level modules:
+# 	altera_default_burst_converter
+# End time: 20:58:25 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 1
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:25 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_address_alignment.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_merlin_address_alignment
+# 
+# Top level modules:
+# 	altera_merlin_address_alignment
+# End time: 20:58:25 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:26 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_avalon_st_pipeline_stage.sv -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_stage
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_stage
+# End time: 20:58:26 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:26 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_avalon_st_pipeline_base.v -L altera_common_sv_packages -work MemoriaImagem1_s1_burst_adapter 
+# -- Compiling module altera_avalon_st_pipeline_base
+# 
+# Top level modules:
+# 	altera_avalon_st_pipeline_base
+# End time: 20:58:27 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:27 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_router_007.sv -L altera_common_sv_packages -work router_007 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router_007_default_decode
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router_007
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_router_007
+# End time: 20:58:27 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:27 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_router_005.sv -L altera_common_sv_packages -work router_005 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router_005_default_decode
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router_005
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_router_005
+# End time: 20:58:28 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:28 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_router_002.sv -L altera_common_sv_packages -work router_002 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router_002_default_decode
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router_002
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_router_002
+# End time: 20:58:28 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:28 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_router_001.sv -L altera_common_sv_packages -work router_001 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router_001_default_decode
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router_001
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_router_001
+# End time: 20:58:29 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:29 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0_router.sv -L altera_common_sv_packages -work router 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router_default_decode
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0_router
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0_router
+# End time: 20:58:29 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:29 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_avalon_sc_fifo.v -work MedidorDesempenho_Escrita_agent_rsp_fifo 
+# -- Compiling module altera_avalon_sc_fifo
+# 
+# Top level modules:
+# 	altera_avalon_sc_fifo
+# End time: 20:58:30 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:30 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_slave_agent.sv -L altera_common_sv_packages -work MedidorDesempenho_Escrita_agent 
+# -- Compiling module altera_merlin_slave_agent
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_slave_agent.sv(618): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_slave_agent.sv(488): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_slave_agent.sv(489): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_slave_agent.sv(490): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_slave_agent.sv(491): (vlog-2583) [SVCHK] - Some checking for conflicts with always_comb and always_latch variables not yet supported. Run vopt to provide additional design-level checks.
+# ** Warning: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_slave_agent.sv(34): (vlog-2186) SystemVerilog testbench feature
+# (randomization, coverage or assertion) detected in the design.
+# These features are only supported in Questasim.
+# 
+# Top level modules:
+# 	altera_merlin_slave_agent
+# End time: 20:58:30 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 6
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:30 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv -L altera_common_sv_packages -work MedidorDesempenho_Escrita_agent 
+# -- Compiling module altera_merlin_burst_uncompressor
+# 
+# Top level modules:
+# 	altera_merlin_burst_uncompressor
+# End time: 20:58:30 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:30 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_master_agent.sv -L altera_common_sv_packages -work Processador_data_master_agent 
+# -- Compiling module altera_merlin_master_agent
+# 
+# Top level modules:
+# 	altera_merlin_master_agent
+# End time: 20:58:31 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:31 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_slave_translator.sv -L altera_common_sv_packages -work MedidorDesempenho_Escrita_translator 
+# -- Compiling module altera_merlin_slave_translator
+# 
+# Top level modules:
+# 	altera_merlin_slave_translator
+# End time: 20:58:31 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:31 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_master_translator.sv -L altera_common_sv_packages -work Processador_data_master_translator 
+# -- Compiling module altera_merlin_master_translator
+# 
+# Top level modules:
+# 	altera_merlin_master_translator
+# End time: 20:58:32 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:32 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v -work cpu 
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_register_bank_a_module
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_register_bank_b_module
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_debug
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_break
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_xbrk
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_dbrk
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_itrace
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_td_mode
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_dtrace
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_compute_input_tm_cnt
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_fifo_wrptr_inc
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_fifo_cnt_inc
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_fifo
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_pib
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_im
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_performance_monitors
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_avalon_reg
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_ociram_sp_ram_module
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_ocimem
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_Processador_cpu_nios2_performance_monitors
+# 	SistemaEmbarcadoSubtrator_Processador_cpu
+# End time: 20:58:33 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:33 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_sysclk.v -work cpu 
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_sysclk
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_sysclk
+# End time: 20:58:34 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:34 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_tck.v -work cpu 
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_tck
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_tck
+# End time: 20:58:34 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:34 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_wrapper.v -work cpu 
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_wrapper
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_wrapper
+# End time: 20:58:34 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:34 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu_test_bench.v -work cpu 
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador_cpu_test_bench
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_Processador_cpu_test_bench
+# End time: 20:58:34 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:35 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_reset_controller.v -work rst_controller 
+# -- Compiling module altera_reset_controller
+# 
+# Top level modules:
+# 	altera_reset_controller
+# End time: 20:58:35 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:35 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_reset_synchronizer.v -work rst_controller 
+# -- Compiling module altera_reset_synchronizer
+# 
+# Top level modules:
+# 	altera_reset_synchronizer
+# End time: 20:58:35 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:35 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_irq_mapper.sv -L altera_common_sv_packages -work irq_mapper 
+# -- Compiling module SistemaEmbarcadoSubtrator_irq_mapper
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_irq_mapper
+# End time: 20:58:35 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:35 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_mm_interconnect_0.v -work mm_interconnect_0 
+# -- Compiling module SistemaEmbarcadoSubtrator_mm_interconnect_0
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_mm_interconnect_0
+# End time: 20:58:36 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:36 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_jtag_uart.v -work jtag_uart 
+# -- Compiling module SistemaEmbarcadoSubtrator_jtag_uart_sim_scfifo_w
+# -- Compiling module SistemaEmbarcadoSubtrator_jtag_uart_scfifo_w
+# -- Compiling module SistemaEmbarcadoSubtrator_jtag_uart_sim_scfifo_r
+# -- Compiling module SistemaEmbarcadoSubtrator_jtag_uart_scfifo_r
+# -- Compiling module SistemaEmbarcadoSubtrator_jtag_uart
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_jtag_uart
+# End time: 20:58:36 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:36 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador.v -work Processador 
+# -- Compiling module SistemaEmbarcadoSubtrator_Processador
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_Processador
+# End time: 20:58:36 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:36 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v -work MemoriaPrograma 
+# -- Compiling module SistemaEmbarcadoSubtrator_MemoriaPrograma
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_MemoriaPrograma
+# End time: 20:58:37 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:37 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v -work MemoriaImagem2 
+# -- Compiling module SistemaEmbarcadoSubtrator_MemoriaImagem2
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_MemoriaImagem2
+# End time: 20:58:37 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:37 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v -work MemoriaImagem1 
+# -- Compiling module SistemaEmbarcadoSubtrator_MemoriaImagem1
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_MemoriaImagem1
+# End time: 20:58:37 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:37 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/Clock_Counter_Interface.v -work MedidorDesempenho 
+# -- Compiling module Clock_Counter_Interface
+# 
+# Top level modules:
+# 	Clock_Counter_Interface
+# End time: 20:58:38 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:38 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/Clock_Counter.v -work MedidorDesempenho 
+# -- Compiling module Clock_Counter
+# 
+# Top level modules:
+# 	Clock_Counter
+# End time: 20:58:38 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:38 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_avalon_reset_source.sv -L altera_common_sv_packages -work SistemaEmbarcadoSubtrator_inst_reset_bfm 
+# -- Compiling module altera_avalon_reset_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_reset_source
+# End time: 20:58:38 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:39 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_conduit_bfm.sv -L altera_common_sv_packages -work SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm 
+# -- Compiling module altera_conduit_bfm
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_conduit_bfm
+# End time: 20:58:39 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:39 on Jun 27,2022
+# vlog -reportprogress 300 -sv D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_avalon_clock_source.sv -L altera_common_sv_packages -work SistemaEmbarcadoSubtrator_inst_clk_bfm 
+# -- Compiling module altera_avalon_clock_source
+# -- Importing package altera_common_sv_packages.verbosity_pkg
+# 
+# Top level modules:
+# 	altera_avalon_clock_source
+# End time: 20:58:40 on Jun 27,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:40 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator.v -work SistemaEmbarcadoSubtrator_inst 
+# -- Compiling module SistemaEmbarcadoSubtrator
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator
+# End time: 20:58:40 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 20:58:40 on Jun 27,2022
+# vlog -reportprogress 300 D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/SistemaEmbarcadoSubtrator_tb.v 
+# -- Compiling module SistemaEmbarcadoSubtrator_tb
+# 
+# Top level modules:
+# 	SistemaEmbarcadoSubtrator_tb
+# End time: 20:58:40 on Jun 27,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# [exec] elab
+# vsim -t ps -L work -L work_lib -L altera_common_sv_packages -L error_adapter_0 -L avalon_st_adapter_005 -L avalon_st_adapter -L MemoriaImagem1_s1_rsp_width_adapter -L rsp_mux_001 -L rsp_mux -L rsp_demux -L cmd_mux_003 -L cmd_mux -L cmd_demux_001 -L cmd_demux -L MemoriaImagem1_s1_burst_adapter -L router_007 -L router_005 -L router_002 -L router_001 -L router -L MedidorDesempenho_Escrita_agent_rsp_fifo -L MedidorDesempenho_Escrita_agent -L Processador_data_master_agent -L MedidorDesempenho_Escrita_translator -L Processador_data_master_translator -L cpu -L rst_controller -L irq_mapper -L mm_interconnect_0 -L jtag_uart -L Processador -L MemoriaPrograma -L MemoriaImagem2 -L MemoriaImagem1 -L MedidorDesempenho -L SistemaEmbarcadoSubtrator_inst_reset_bfm -L SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm -L SistemaEmbarcadoSubtrator_inst_clk_bfm -L SistemaEmbarcadoSubtrator_inst -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver SistemaEmbarcadoSubtrator_tb 
+# Start time: 20:58:40 on Jun 27,2022
+# Loading work.SistemaEmbarcadoSubtrator_tb
+# Loading SistemaEmbarcadoSubtrator_inst.SistemaEmbarcadoSubtrator
+# Loading MedidorDesempenho.Clock_Counter_Interface
+# Loading MedidorDesempenho.Clock_Counter
+# Loading MemoriaImagem1.SistemaEmbarcadoSubtrator_MemoriaImagem1
+# Loading altera_mf_ver.altsyncram
+# Loading MemoriaImagem2.SistemaEmbarcadoSubtrator_MemoriaImagem2
+# Loading MemoriaPrograma.SistemaEmbarcadoSubtrator_MemoriaPrograma
+# Loading Processador.SistemaEmbarcadoSubtrator_Processador
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_test_bench
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_register_bank_a_module
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_register_bank_b_module
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_debug
+# Loading altera_mf_ver.altera_std_synchronizer
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_break
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_xbrk
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_dbrk
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_itrace
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_dtrace
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_td_mode
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_fifo
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_compute_input_tm_cnt
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_fifo_wrptr_inc
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_fifo_cnt_inc
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_pib
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_im
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_avalon_reg
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_nios2_ocimem
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_ociram_sp_ram_module
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_wrapper
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_tck
+# Loading cpu.SistemaEmbarcadoSubtrator_Processador_cpu_debug_slave_sysclk
+# Loading jtag_uart.SistemaEmbarcadoSubtrator_jtag_uart
+# Loading jtag_uart.SistemaEmbarcadoSubtrator_jtag_uart_scfifo_w
+# Loading jtag_uart.SistemaEmbarcadoSubtrator_jtag_uart_sim_scfifo_w
+# Loading jtag_uart.SistemaEmbarcadoSubtrator_jtag_uart_scfifo_r
+# Loading jtag_uart.SistemaEmbarcadoSubtrator_jtag_uart_sim_scfifo_r
+# Loading mm_interconnect_0.SistemaEmbarcadoSubtrator_mm_interconnect_0
+# Loading sv_std.std
+# Loading Processador_data_master_translator.altera_merlin_master_translator
+# Loading MedidorDesempenho_Escrita_translator.altera_merlin_slave_translator
+# Loading Processador_data_master_agent.altera_merlin_master_agent
+# Loading MedidorDesempenho_Escrita_agent.altera_merlin_slave_agent
+# Loading MedidorDesempenho_Escrita_agent.altera_merlin_burst_uncompressor
+# Loading MedidorDesempenho_Escrita_agent_rsp_fifo.altera_avalon_sc_fifo
+# Loading router.SistemaEmbarcadoSubtrator_mm_interconnect_0_router
+# Loading router.SistemaEmbarcadoSubtrator_mm_interconnect_0_router_default_decode
+# Loading router_001.SistemaEmbarcadoSubtrator_mm_interconnect_0_router_001
+# Loading router_001.SistemaEmbarcadoSubtrator_mm_interconnect_0_router_001_default_decode
+# Loading router_002.SistemaEmbarcadoSubtrator_mm_interconnect_0_router_002
+# Loading router_002.SistemaEmbarcadoSubtrator_mm_interconnect_0_router_002_default_decode
+# Loading router_005.SistemaEmbarcadoSubtrator_mm_interconnect_0_router_005
+# Loading router_005.SistemaEmbarcadoSubtrator_mm_interconnect_0_router_005_default_decode
+# Loading router_007.SistemaEmbarcadoSubtrator_mm_interconnect_0_router_007
+# Loading router_007.SistemaEmbarcadoSubtrator_mm_interconnect_0_router_007_default_decode
+# Loading MemoriaImagem1_s1_burst_adapter.altera_merlin_burst_adapter
+# Loading cmd_demux.SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_demux
+# Loading cmd_demux_001.SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_demux_001
+# Loading cmd_mux.SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_mux
+# Loading cmd_mux_003.SistemaEmbarcadoSubtrator_mm_interconnect_0_cmd_mux_003
+# Loading cmd_mux_003.altera_merlin_arbitrator
+# Loading cmd_mux_003.altera_merlin_arb_adder
+# Loading rsp_demux.SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_demux
+# Loading rsp_mux.SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_mux
+# Loading rsp_mux.altera_merlin_arbitrator
+# Loading rsp_mux.altera_merlin_arb_adder
+# Loading rsp_mux_001.SistemaEmbarcadoSubtrator_mm_interconnect_0_rsp_mux_001
+# Loading rsp_mux_001.altera_merlin_arbitrator
+# Loading rsp_mux_001.altera_merlin_arb_adder
+# Loading MemoriaImagem1_s1_rsp_width_adapter.altera_merlin_width_adapter
+# Loading avalon_st_adapter.SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter
+# Loading error_adapter_0.SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_error_adapter_0
+# Loading avalon_st_adapter_005.SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_005
+# Loading error_adapter_0.SistemaEmbarcadoSubtrator_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0
+# Loading irq_mapper.SistemaEmbarcadoSubtrator_irq_mapper
+# Loading rst_controller.altera_reset_controller
+# Loading altera_common_sv_packages.verbosity_pkg
+# Loading SistemaEmbarcadoSubtrator_inst_clk_bfm.altera_avalon_clock_source
+# Loading SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm.altera_conduit_bfm
+# Loading SistemaEmbarcadoSubtrator_inst_reset_bfm.altera_avalon_reset_source
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading MemoriaImagem1_s1_burst_adapter.altera_merlin_burst_adapter_uncompressed_only
+# Loading MemoriaImagem1_s1_rsp_width_adapter.altera_merlin_burst_uncompressor
+# Loading rst_controller.altera_reset_synchronizer
+# ** Warning: (vsim-8311) System Verilog assertions are supported only in Questasim.
+# ** Warning: (vsim-3017) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/memoriaimagem1/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem1.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/memoriaimagem2/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaImagem2.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/memoriaprograma/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_MemoriaPrograma.v(60): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/processador/cpu/SistemaEmbarcadoSubtrator_Processador_cpu_register_bank_a/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(50): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Too few port connections. Expected 23, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/processador/cpu/SistemaEmbarcadoSubtrator_Processador_cpu_register_bank_b/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken0'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'q_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(116): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3015) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2610): [PCDPC] - Port size (16) does not match connection size (38) for port 'jdo'. The port definition is at: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(987).
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/processador/cpu/the_SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci/the_SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci_itrace File: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v
+# ** Warning: (vsim-3017) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Too few port connections. Expected 23, found 7.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/processador/cpu/the_SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci/the_SistemaEmbarcadoSubtrator_Processador_cpu_nios2_ocimem/SistemaEmbarcadoSubtrator_Processador_cpu_ociram_sp_ram/the_altsyncram File: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'wren_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'rden_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'data_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'address_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clock1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken2'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'clocken3'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr0'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'aclr1'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'byteena_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_a'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'addressstall_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'q_b'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu.v(2147): [TFMPC] - Missing connection for port 'eccstatus'.
+# ** Warning: (vsim-3017) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator.v(151): [TFMPC] - Too few port connections. Expected 12, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/jtag_uart File: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_jtag_uart.v
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator.v(151): [TFMPC] - Missing connection for port 'dataavailable'.
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator.v(151): [TFMPC] - Missing connection for port 'readyfordata'.
+# ** Warning: (vsim-3017) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/SistemaEmbarcadoSubtrator_tb.v(26): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst_medidordesempenho_conduit_bfm File: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_conduit_bfm.sv
+# ** Warning: (vsim-3722) D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/SistemaEmbarcadoSubtrator_tb.v(26): [TFMPC] - Missing connection for port 'reset_n'.
+# ** Warning: Design size of 11219 statements exceeds ModelSim-Intel FPGA Starter Edition recommended capacity.
+# Expect performance to be adversely affected.
+#  
+do formato.do
+run 2 ms
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "D:/Documents/quartusII-data/TesteSomador/imagem1.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/memoriaimagem1/the_altsyncram/m_default/altsyncram_inst
+# ERROR: cannot read D:/Documents/quartusII-data/TesteSomador/imagem1.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "D:/Documents/quartusII-data/TesteSomador/imagem1.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/memoriaimagem1/the_altsyncram/m_default/altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# ** Warning: (vsim-3534) [FOFIR] - Failed to open file "D:/Documents/quartusII-data/TesteSomador/imagem2.mif" for reading.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(263)
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/memoriaimagem2/the_altsyncram/m_default/altsyncram_inst
+# ERROR: cannot read D:/Documents/quartusII-data/TesteSomador/imagem2.mif.
+# ** Warning: (vsim-7) Failed to open readmem file "D:/Documents/quartusII-data/TesteSomador/imagem2.ver" in read mode.
+# No such file or directory. (errno = ENOENT)    : /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_mf.v(48976)
+#    Time: 0 ps  Iteration: 0  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/memoriaimagem2/the_altsyncram/m_default/altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaprograma.the_altsyncram.m_default.altsyncram_inst
+# Warning: DONT_CARE value for read_during_write_mode_port_a is not supported in Stratix device family, it might cause incorrect behavioural simulation result
+# Time: 0  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.processador.cpu.the_SistemaEmbarcadoSubtrator_Processador_cpu_nios2_oci.the_SistemaEmbarcadoSubtrator_Processador_cpu_nios2_ocimem.SistemaEmbarcadoSubtrator_Processador_cpu_ociram_sp_ram.the_altsyncram.m_default.altsyncram_inst
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_clk_bfm.__hello: - Hello from altera_clock_source.
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_clk_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_clk_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_clk_bfm.__hello: -   CLOCK_RATE = 50000000 Hz
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_reset_bfm.__hello: - Hello from altera_reset_source
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_reset_bfm.__hello: -   $Revision: #1 $
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_reset_bfm.__hello: -   $Date: 2018/07/18 $
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_reset_bfm.__hello: -   ASSERT_HIGH_RESET = 0
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_reset_bfm.__hello: -   INITIAL_RESET_CYCLES = 50
+#                    0: INFO: ------------------------------------------------------------
+#                    0: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_reset_bfm.reset_assert: Reset asserted
+#               990000: INFO: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst_reset_bfm.reset_deassert: Reset deasserted
+# Warning : Address pointed at port A is out of bound!
+# Time: 2190000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 2190000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 2250000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 2250000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 2310000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 2310000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46410000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46410000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46470000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46470000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46490000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46490000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46530000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46530000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46710000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46710000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46890000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46890000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46910000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 46910000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 47030000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 47030000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 47270000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 47270000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 47830000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 47830000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48030000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48030000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48090000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48090000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48110000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48110000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48150000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48150000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48410000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48410000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48470000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48470000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48490000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48490000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48650000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48650000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48830000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 48830000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 49010000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem2.the_altsyncram.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 49010000  Instance: SistemaEmbarcadoSubtrator_tb.sistemaembarcadosubtrator_inst.memoriaimagem1.the_altsyncram.m_default.altsyncram_inst
+# 49050 ns: ERROR: SistemaEmbarcadoSubtrator_Processador_cpu_test_bench/E_valid is 'x'
+# ** Note: $stop    : D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu_test_bench.v(472)
+#    Time: 49050 ns  Iteration: 1  Instance: /SistemaEmbarcadoSubtrator_tb/sistemaembarcadosubtrator_inst/processador/cpu/the_SistemaEmbarcadoSubtrator_Processador_cpu_test_bench
+# Break in Module SistemaEmbarcadoSubtrator_Processador_cpu_test_bench at D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/SistemaEmbarcadoSubtrator_Processador_cpu_test_bench.v line 472
+# End time: 21:00:45 on Jun 27,2022, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 118

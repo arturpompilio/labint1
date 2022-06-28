@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Mon Jun 27 10:43:04 2022
+Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
+Revision Name : TestePlatSub
+Top-level Entity Name : TestePlatSub
+Family : Cyclone IV E
+Total logic elements : 2,781
+    Total combinational functions : 2,513
+    Dedicated logic registers : 1,276
+Total registers : 1276
+Total pins : 20
+Total virtual pins : 0
+Total memory bits : 1,846,272
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

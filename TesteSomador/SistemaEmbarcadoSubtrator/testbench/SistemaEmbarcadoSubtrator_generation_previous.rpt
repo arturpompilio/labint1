@@ -1,0 +1,299 @@
+Info: Starting: Create testbench Platform Designer system
+Info: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator.ipx
+Info: qsys-generate D:\Documents\quartusIIdata\TesteSomador\SistemaEmbarcadoSubtrator.qsys --testbench=STANDARD --output-directory=D:\Documents\quartusIIdata\TesteSomador --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading TesteSomador/SistemaEmbarcadoSubtrator.qsys
+Progress: Reading input file
+Progress: Adding MedidorDesempenho [MedidorDesempenho 1.0]
+Progress: Parameterizing module MedidorDesempenho
+Progress: Adding MemoriaImagem1 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module MemoriaImagem1
+Progress: Adding MemoriaImagem2 [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module MemoriaImagem2
+Progress: Adding MemoriaPrograma [altera_avalon_onchip_memory2 18.1]
+Progress: Parameterizing module MemoriaPrograma
+Progress: Adding Processador [altera_nios2_gen2 18.1]
+Progress: Parameterizing module Processador
+Progress: Adding Subtrator [Subtrator 1.0]
+Progress: Parameterizing module Subtrator
+Progress: Adding clk_0 [clock_source 18.1]
+Progress: Parameterizing module clk_0
+Progress: Adding jtag_uart [altera_avalon_jtag_uart 18.1]
+Progress: Parameterizing module jtag_uart
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SistemaEmbarcadoSubtrator.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: qsys-generate succeeded.
+Info: Loading IP catalog for testbench.
+Progress: 
+Progress: 
+Progress: 
+Progress: (2) searching C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx (ipx file)
+Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx: Loading now from components.ipx
+Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\ip_component_categories.ipx described 0 plugins, 0 paths, in 0,01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/ip_component_categories.ipx matched 1 files in 0,01 seconds
+Info: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/ip/**/* matched 0 files in 0,00 seconds
+Info: Reading index D:\Documents\quartusIIdata\TesteSomador\SistemaEmbarcadoSubtrator\testbench\SistemaEmbarcadoSubtrator.ipx
+Progress: Loading TesteSomador/MedidorDesempenho_hw.tcl
+Progress: Loading TesteSomador/SistemaEmbarcadoSubtrator.qsys
+Progress: Loading TesteSomador/Subtrator_hw.tcl
+Info: D:/Documents/quartusIIdata/TesteSomador/* matched 29 files in 0,14 seconds
+Info: D:/Documents/quartusIIdata/TesteSomador/ip/**/* matched 0 files in 0,00 seconds
+Info: D:/Documents/quartusIIdata/TesteSomador/*/* matched 43 files in 0,00 seconds
+Info: D:\Documents\quartusIIdata\TesteSomador\SistemaEmbarcadoSubtrator\testbench\SistemaEmbarcadoSubtrator.ipx described 0 plugins, 3 paths, in 0,14 seconds
+Progress: Loading testbench/SistemaEmbarcadoSubtrator_tb.qsys
+Info: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/* matched 12 files in 0,14 seconds
+Info: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/*/* matched 11 files in 0,01 seconds
+Info: C:/Users/felip/.altera.quartus/ip/18.1/**/* matched 0 files in 0,00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_PROJECTDIR/* matched 0 files in 0,00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_USERDIR/* matched 0 files in 0,00 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$$QUARTUS_IP_GLOBALDIR/* matched 0 files in 0,00 seconds
+Info: Reading index C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx
+Info: C:\intelfpga_lite\18.1\ip\altera\altera_components.ipx described 2035 plugins, 0 paths, in 0,35 seconds
+Info: C:/intelfpga_lite/18.1/ip/**/* matched 139 files in 0,36 seconds
+Info: C:/intelfpga_lite/ip/**/* matched 0 files in 0,00 seconds
+Info: Reading index C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\builtin.ipx described 83 plugins, 0 paths, in 0,04 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/**/* matched 8 files in 0,04 seconds
+Info: Reading index C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx
+Info: C:\intelfpga_lite\18.1\quartus\common\librarian\factories\index.ipx described 151 plugins, 0 paths, in 0,01 seconds
+Info: C:/intelfpga_lite/18.1/quartus/common/librarian/factories/**/* matched 4 files in 0,02 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/$IP_IPX_PATH matched 1 files in 0,00 seconds
+Info: C:\intelfpga_lite\18.1\quartus\sopc_builder\bin\root_components.ipx described 0 plugins, 13 paths, in 0,58 seconds
+Info: C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/root_components.ipx matched 1 files in 0,58 seconds
+Progress: 
+Progress: 
+Progress: 
+Info: Running script C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/tbgen.tcl
+Info: send_message Info TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: TB_Gen: QSYS Testbench Generator Rev: $Revision: #1 $
+Info: get_module_property NAME
+Info: send_message Info TB_Gen: System design is: SistemaEmbarcadoSubtrator
+Info: TB_Gen: System design is: SistemaEmbarcadoSubtrator
+Info: get_interfaces 
+Info: get_connections 
+Info: get_interface_property clk EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in
+Info: get_interface_property medidordesempenho_conduit EXPORT_OF
+Info: get_instance_property MedidorDesempenho CLASS_NAME
+Info: get_instance_assignment MedidorDesempenho testbench.partner.map.conduit
+Info: get_interface_property reset EXPORT_OF
+Info: get_instance_property clk_0 CLASS_NAME
+Info: get_instance_assignment clk_0 testbench.partner.map.clk_in_reset
+Info: send_message Info TB_Gen: Creating testbench system : SistemaEmbarcadoSubtrator_tb with all standard BFMs
+Info: TB_Gen: Creating testbench system : SistemaEmbarcadoSubtrator_tb with all standard BFMs
+Info: create_system SistemaEmbarcadoSubtrator_tb
+Info: add_instance SistemaEmbarcadoSubtrator_inst SistemaEmbarcadoSubtrator 
+Info: set_use_testbench_naming_pattern true SistemaEmbarcadoSubtrator
+Info: get_instance_interfaces SistemaEmbarcadoSubtrator_inst
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst clk CLASS_NAME
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit CLASS_NAME
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst reset CLASS_NAME
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst clk CLASS_NAME
+Info: send_message Info TB_Gen: clock_sink found: clk
+Info: TB_Gen: clock_sink found: clk
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst clk CLASS_NAME
+Info: add_instance SistemaEmbarcadoSubtrator_inst_clk_bfm altera_avalon_clock_source 
+Info: get_instance_property SistemaEmbarcadoSubtrator_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value SistemaEmbarcadoSubtrator_inst clk clockRate
+Info: set_instance_parameter_value SistemaEmbarcadoSubtrator_inst_clk_bfm CLOCK_RATE 50000000.0
+Info: set_instance_parameter_value SistemaEmbarcadoSubtrator_inst_clk_bfm CLOCK_UNIT 1
+Info: get_instance_property SistemaEmbarcadoSubtrator_inst_clk_bfm CLASS_NAME
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst clk CLASS_NAME
+Info: get_instance_interfaces SistemaEmbarcadoSubtrator_inst_clk_bfm
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_clk_bfm clk CLASS_NAME
+Info: add_connection SistemaEmbarcadoSubtrator_inst_clk_bfm.clk SistemaEmbarcadoSubtrator_inst.clk
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst reset CLASS_NAME
+Info: send_message Info TB_Gen: reset_sink found: reset
+Info: TB_Gen: reset_sink found: reset
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst reset CLASS_NAME
+Info: add_instance SistemaEmbarcadoSubtrator_inst_reset_bfm altera_avalon_reset_source 
+Info: get_instance_property SistemaEmbarcadoSubtrator_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_ports SistemaEmbarcadoSubtrator_inst reset
+Info: get_instance_interface_port_property SistemaEmbarcadoSubtrator_inst reset reset_reset_n ROLE
+Info: get_instance_interface_port_property SistemaEmbarcadoSubtrator_inst reset reset_reset_n ROLE
+Info: set_instance_parameter_value SistemaEmbarcadoSubtrator_inst_reset_bfm ASSERT_HIGH_RESET 0
+Info: set_instance_parameter_value SistemaEmbarcadoSubtrator_inst_reset_bfm INITIAL_RESET_CYCLES 50
+Info: get_instance_property SistemaEmbarcadoSubtrator_inst_reset_bfm CLASS_NAME
+Info: get_instance_interfaces SistemaEmbarcadoSubtrator_inst_reset_bfm
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_reset_bfm reset CLASS_NAME
+Info: get_instance_property SistemaEmbarcadoSubtrator_inst_reset_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value SistemaEmbarcadoSubtrator_inst reset associatedClock
+Info: get_instance_interfaces SistemaEmbarcadoSubtrator_inst_clk_bfm
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_clk_bfm clk CLASS_NAME
+Info: send_message Warning TB_Gen: SistemaEmbarcadoSubtrator_inst_reset_bfm is not associated to any clock; connecting SistemaEmbarcadoSubtrator_inst_reset_bfm to 'SistemaEmbarcadoSubtrator_inst_clk_bfm.clk'
+Warning: TB_Gen: SistemaEmbarcadoSubtrator_inst_reset_bfm is not associated to any clock; connecting SistemaEmbarcadoSubtrator_inst_reset_bfm to 'SistemaEmbarcadoSubtrator_inst_clk_bfm.clk'
+Info: add_connection SistemaEmbarcadoSubtrator_inst_clk_bfm.clk SistemaEmbarcadoSubtrator_inst_reset_bfm.clk
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst reset CLASS_NAME
+Info: get_instance_interfaces SistemaEmbarcadoSubtrator_inst_reset_bfm
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_reset_bfm clk CLASS_NAME
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_reset_bfm reset CLASS_NAME
+Info: add_connection SistemaEmbarcadoSubtrator_inst_reset_bfm.reset SistemaEmbarcadoSubtrator_inst.reset
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit CLASS_NAME
+Info: send_message Info TB_Gen: conduit_end found: medidordesempenho_conduit
+Info: TB_Gen: conduit_end found: medidordesempenho_conduit
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit CLASS_NAME
+Info: add_instance SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm altera_conduit_bfm 
+Info: get_instance_property SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit associatedClock
+Info: get_instance_interface_parameter_value SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit associatedReset
+Info: get_instance_interface_ports SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit
+Info: get_instance_interface_port_property SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit medidordesempenho_conduit_readdata ROLE
+Info: get_instance_interface_port_property SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit medidordesempenho_conduit_readdata WIDTH
+Info: get_instance_interface_port_property SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit medidordesempenho_conduit_readdata DIRECTION
+Info: set_instance_parameter_value SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm CLOCKED_SIGNAL 1
+Info: set_instance_parameter_value SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm ENABLE_RESET 0
+Info: set_instance_parameter_value SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm SIGNAL_ROLES readdata
+Info: set_instance_parameter_value SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm SIGNAL_WIDTHS 32
+Info: set_instance_parameter_value SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm SIGNAL_DIRECTIONS input
+Info: get_instance_property SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm CLASS_NAME
+Info: get_instance_interfaces SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm clk CLASS_NAME
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm conduit CLASS_NAME
+Info: get_instance_property SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm CLASS_NAME
+Info: get_instance_interface_parameter_value SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit associatedClock
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst clk CLASS_NAME
+Info: get_instance_interfaces SistemaEmbarcadoSubtrator_inst_clk_bfm
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_clk_bfm clk CLASS_NAME
+Info: add_connection SistemaEmbarcadoSubtrator_inst_clk_bfm.clk SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm.clk
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst medidordesempenho_conduit CLASS_NAME
+Info: get_instance_interfaces SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm clk CLASS_NAME
+Info: get_instance_interface_property SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm conduit CLASS_NAME
+Info: add_connection SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm.conduit SistemaEmbarcadoSubtrator_inst.medidordesempenho_conduit
+Info: send_message Info TB_Gen: Saving testbench system: SistemaEmbarcadoSubtrator_tb.qsys
+Info: TB_Gen: Saving testbench system: SistemaEmbarcadoSubtrator_tb.qsys
+Info: save_system SistemaEmbarcadoSubtrator_tb.qsys
+Info: send_message Info TB_Gen: TBGEN SUCCESSFUL
+Info: TB_Gen: TBGEN SUCCESSFUL
+Info: Testbench system: D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb.qsys
+Info: Done
+Info: qsys-generate D:\Documents\quartusIIdata\TesteSomador\SistemaEmbarcadoSubtrator.qsys --simulation=VERILOG --allow-mixed-language-simulation --testbench=STANDARD --testbench-simulation=VERILOG --allow-mixed-language-testbench-simulation --output-directory=D:\Documents\quartusIIdata\TesteSomador\SistemaEmbarcadoSubtrator\testbench\SistemaEmbarcadoSubtrator_tb\simulation --family="Cyclone IV E" --part=EP4CE115F29C7
+Progress: Loading testbench/SistemaEmbarcadoSubtrator_tb.qsys
+Progress: Reading input file
+Progress: Adding SistemaEmbarcadoSubtrator_inst [SistemaEmbarcadoSubtrator 1.0]
+Progress: Parameterizing module SistemaEmbarcadoSubtrator_inst
+Progress: Adding SistemaEmbarcadoSubtrator_inst_clk_bfm [altera_avalon_clock_source 18.1]
+Progress: Parameterizing module SistemaEmbarcadoSubtrator_inst_clk_bfm
+Progress: Adding SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm [altera_conduit_bfm 18.1]
+Progress: Parameterizing module SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm
+Progress: Adding SistemaEmbarcadoSubtrator_inst_reset_bfm [altera_avalon_reset_source 18.1]
+Progress: Parameterizing module SistemaEmbarcadoSubtrator_inst_reset_bfm
+Progress: Building connections
+Progress: Parameterizing connections
+Progress: Validating
+Progress: Done reading input file
+Info: SistemaEmbarcadoSubtrator_tb.SistemaEmbarcadoSubtrator_inst.jtag_uart: JTAG UART IP input clock need to be at least double (2x) the operating frequency of JTAG TCK on board
+Info: SistemaEmbarcadoSubtrator_tb.SistemaEmbarcadoSubtrator_inst_clk_bfm: Elaborate: altera_clock_source
+Info: SistemaEmbarcadoSubtrator_tb.SistemaEmbarcadoSubtrator_inst_clk_bfm:            $Revision: #1 $
+Info: SistemaEmbarcadoSubtrator_tb.SistemaEmbarcadoSubtrator_inst_clk_bfm:            $Date: 2018/07/18 $
+Info: SistemaEmbarcadoSubtrator_tb.SistemaEmbarcadoSubtrator_inst_reset_bfm: Elaborate: altera_reset_source
+Info: SistemaEmbarcadoSubtrator_tb.SistemaEmbarcadoSubtrator_inst_reset_bfm:            $Revision: #1 $
+Info: SistemaEmbarcadoSubtrator_tb.SistemaEmbarcadoSubtrator_inst_reset_bfm:            $Date: 2018/07/18 $
+Info: SistemaEmbarcadoSubtrator_tb.SistemaEmbarcadoSubtrator_inst_reset_bfm: Reset is negatively asserted.
+Info: SistemaEmbarcadoSubtrator_tb: Generating SistemaEmbarcadoSubtrator_tb "SistemaEmbarcadoSubtrator_tb" for SIM_VERILOG
+Info: SistemaEmbarcadoSubtrator_inst: "SistemaEmbarcadoSubtrator_tb" instantiated SistemaEmbarcadoSubtrator "SistemaEmbarcadoSubtrator_inst"
+Info: SistemaEmbarcadoSubtrator_inst_clk_bfm: "SistemaEmbarcadoSubtrator_tb" instantiated altera_avalon_clock_source "SistemaEmbarcadoSubtrator_inst_clk_bfm"
+Info: SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm: "SistemaEmbarcadoSubtrator_tb" instantiated altera_conduit_bfm "SistemaEmbarcadoSubtrator_inst_medidordesempenho_conduit_bfm"
+Info: Reusing file D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/verbosity_pkg.sv
+Info: SistemaEmbarcadoSubtrator_inst_reset_bfm: "SistemaEmbarcadoSubtrator_tb" instantiated altera_avalon_reset_source "SistemaEmbarcadoSubtrator_inst_reset_bfm"
+Info: Reusing file D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/verbosity_pkg.sv
+Info: MedidorDesempenho: "SistemaEmbarcadoSubtrator_inst" instantiated MedidorDesempenho "MedidorDesempenho"
+Info: MemoriaImagem1: Starting RTL generation for module 'SistemaEmbarcadoSubtrator_MemoriaImagem1'
+Info: MemoriaImagem1:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SistemaEmbarcadoSubtrator_MemoriaImagem1 --dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0006_MemoriaImagem1_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0006_MemoriaImagem1_gen//SistemaEmbarcadoSubtrator_MemoriaImagem1_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0006_MemoriaImagem1_gen/  ]
+Info: MemoriaImagem1: Done RTL generation for module 'SistemaEmbarcadoSubtrator_MemoriaImagem1'
+Info: MemoriaImagem1: "SistemaEmbarcadoSubtrator_inst" instantiated altera_avalon_onchip_memory2 "MemoriaImagem1"
+Info: MemoriaImagem2: Starting RTL generation for module 'SistemaEmbarcadoSubtrator_MemoriaImagem2'
+Info: MemoriaImagem2:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SistemaEmbarcadoSubtrator_MemoriaImagem2 --dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0007_MemoriaImagem2_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0007_MemoriaImagem2_gen//SistemaEmbarcadoSubtrator_MemoriaImagem2_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0007_MemoriaImagem2_gen/  ]
+Info: MemoriaImagem2: Done RTL generation for module 'SistemaEmbarcadoSubtrator_MemoriaImagem2'
+Info: MemoriaImagem2: "SistemaEmbarcadoSubtrator_inst" instantiated altera_avalon_onchip_memory2 "MemoriaImagem2"
+Info: MemoriaPrograma: Starting RTL generation for module 'SistemaEmbarcadoSubtrator_MemoriaPrograma'
+Info: MemoriaPrograma:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_onchip_memory2/generate_rtl.pl --name=SistemaEmbarcadoSubtrator_MemoriaPrograma --dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0008_MemoriaPrograma_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0008_MemoriaPrograma_gen//SistemaEmbarcadoSubtrator_MemoriaPrograma_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0008_MemoriaPrograma_gen/  ]
+Info: MemoriaPrograma: Done RTL generation for module 'SistemaEmbarcadoSubtrator_MemoriaPrograma'
+Info: MemoriaPrograma: "SistemaEmbarcadoSubtrator_inst" instantiated altera_avalon_onchip_memory2 "MemoriaPrograma"
+Info: Processador: "SistemaEmbarcadoSubtrator_inst" instantiated altera_nios2_gen2 "Processador"
+Info: jtag_uart: Starting RTL generation for module 'SistemaEmbarcadoSubtrator_jtag_uart'
+Info: jtag_uart:   Generation command is [exec C:/intelfpga_lite/18.1/quartus/bin64/perl/bin/perl.exe -I C:/intelfpga_lite/18.1/quartus/bin64/perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/common -I C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart -- C:/intelfpga_lite/18.1/quartus/../ip/altera/sopc_builder_ip/altera_avalon_jtag_uart/generate_rtl.pl --name=SistemaEmbarcadoSubtrator_jtag_uart --dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0009_jtag_uart_gen/ --quartus_dir=C:/intelfpga_lite/18.1/quartus --verilog --config=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0009_jtag_uart_gen//SistemaEmbarcadoSubtrator_jtag_uart_component_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0009_jtag_uart_gen/  ]
+Info: jtag_uart: Done RTL generation for module 'SistemaEmbarcadoSubtrator_jtag_uart'
+Info: jtag_uart: "SistemaEmbarcadoSubtrator_inst" instantiated altera_avalon_jtag_uart "jtag_uart"
+Info: avalon_st_adapter: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_001: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_002: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_003: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_004: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_005: Inserting error_adapter: error_adapter_0
+Info: avalon_st_adapter_006: Inserting error_adapter: error_adapter_0
+Info: mm_interconnect_0: "SistemaEmbarcadoSubtrator_inst" instantiated altera_mm_interconnect "mm_interconnect_0"
+Info: irq_mapper: "SistemaEmbarcadoSubtrator_inst" instantiated altera_irq_mapper "irq_mapper"
+Info: rst_controller: "SistemaEmbarcadoSubtrator_inst" instantiated altera_reset_controller "rst_controller"
+Info: cpu: Starting RTL generation for module 'SistemaEmbarcadoSubtrator_Processador_cpu'
+Info: cpu:   Generation command is [exec C:/intelFPGA_lite/18.1/quartus/bin64//eperlcmd.exe -I C:/intelFPGA_lite/18.1/quartus/bin64//perl/lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/europa -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin/perl_lib -I C:/intelfpga_lite/18.1/quartus/sopc_builder/bin -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/cpu_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/nios_lib -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -I C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2 -- C:/intelfpga_lite/18.1/quartus/../ip/altera/nios2_ip/altera_nios2_gen2/generate_rtl.epl --name=SistemaEmbarcadoSubtrator_Processador_cpu --dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0012_cpu_gen/ --quartus_bindir=C:/intelFPGA_lite/18.1/quartus/bin64/ --verilog --config=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0012_cpu_gen//SistemaEmbarcadoSubtrator_Processador_cpu_processor_configuration.pl  --do_build_sim=1    --sim_dir=C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0012_cpu_gen/  ]
+Info: cpu: # 2022.06.27 10:32:08 (*) Starting Nios II generation
+Info: cpu: # 2022.06.27 10:32:08 (*)   Checking for plaintext license.
+Info: cpu: # 2022.06.27 10:32:09 (*)   Couldn't query license setup in Quartus directory C:/intelFPGA_lite/18.1/quartus/bin64/
+Info: cpu: # 2022.06.27 10:32:09 (*)   Defaulting to contents of LM_LICENSE_FILE environment variable
+Info: cpu: # 2022.06.27 10:32:09 (*)   LM_LICENSE_FILE environment variable is empty
+Info: cpu: # 2022.06.27 10:32:09 (*)   Plaintext license not found.
+Info: cpu: # 2022.06.27 10:32:09 (*)   No license required to generate encrypted Nios II/e.
+Info: cpu: # 2022.06.27 10:32:09 (*)   Elaborating CPU configuration settings
+Info: cpu: # 2022.06.27 10:32:09 (*)   Creating all objects for CPU
+Info: cpu: # 2022.06.27 10:32:11 (*)   Creating 'C:/Users/felip/AppData/Local/Temp/alt9170_6025114729230875135.dir/0012_cpu_gen//SistemaEmbarcadoSubtrator_Processador_cpu_nios2_waves.do'
+Info: cpu: # 2022.06.27 10:32:11 (*)   Generating RTL from CPU objects
+Info: cpu: # 2022.06.27 10:32:11 (*)   Creating plain-text RTL
+Info: cpu: # 2022.06.27 10:32:13 (*) Done Nios II generation
+Info: cpu: Done RTL generation for module 'SistemaEmbarcadoSubtrator_Processador_cpu'
+Info: cpu: "Processador" instantiated altera_nios2_gen2_unit "cpu"
+Info: Processador_data_master_translator: "mm_interconnect_0" instantiated altera_merlin_master_translator "Processador_data_master_translator"
+Info: MedidorDesempenho_Escrita_translator: "mm_interconnect_0" instantiated altera_merlin_slave_translator "MedidorDesempenho_Escrita_translator"
+Info: Processador_data_master_agent: "mm_interconnect_0" instantiated altera_merlin_master_agent "Processador_data_master_agent"
+Info: MedidorDesempenho_Escrita_agent: "mm_interconnect_0" instantiated altera_merlin_slave_agent "MedidorDesempenho_Escrita_agent"
+Info: MedidorDesempenho_Escrita_agent_rsp_fifo: "mm_interconnect_0" instantiated altera_avalon_sc_fifo "MedidorDesempenho_Escrita_agent_rsp_fifo"
+Info: router: "mm_interconnect_0" instantiated altera_merlin_router "router"
+Info: router_001: "mm_interconnect_0" instantiated altera_merlin_router "router_001"
+Info: router_002: "mm_interconnect_0" instantiated altera_merlin_router "router_002"
+Info: router_005: "mm_interconnect_0" instantiated altera_merlin_router "router_005"
+Info: router_007: "mm_interconnect_0" instantiated altera_merlin_router "router_007"
+Info: MemoriaImagem1_s1_burst_adapter: "mm_interconnect_0" instantiated altera_merlin_burst_adapter "MemoriaImagem1_s1_burst_adapter"
+Info: cmd_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux"
+Info: cmd_demux_001: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "cmd_demux_001"
+Info: cmd_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux"
+Info: cmd_mux_003: "mm_interconnect_0" instantiated altera_merlin_multiplexer "cmd_mux_003"
+Info: Reusing file D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_demux: "mm_interconnect_0" instantiated altera_merlin_demultiplexer "rsp_demux"
+Info: rsp_mux: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux"
+Info: Reusing file D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: rsp_mux_001: "mm_interconnect_0" instantiated altera_merlin_multiplexer "rsp_mux_001"
+Info: Reusing file D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_arbitrator.sv
+Info: MemoriaImagem1_s1_rsp_width_adapter: "mm_interconnect_0" instantiated altera_merlin_width_adapter "MemoriaImagem1_s1_rsp_width_adapter"
+Info: Reusing file D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_address_alignment.sv
+Info: Reusing file D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/SistemaEmbarcadoSubtrator_tb/simulation/submodules/altera_merlin_burst_uncompressor.sv
+Info: avalon_st_adapter: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter"
+Info: avalon_st_adapter_005: "mm_interconnect_0" instantiated altera_avalon_st_adapter "avalon_st_adapter_005"
+Info: error_adapter_0: "avalon_st_adapter" instantiated error_adapter "error_adapter_0"
+Info: error_adapter_0: "avalon_st_adapter_005" instantiated error_adapter "error_adapter_0"
+Info: SistemaEmbarcadoSubtrator_tb: Done "SistemaEmbarcadoSubtrator_tb" with 38 modules, 69 files
+Info: qsys-generate succeeded.
+Info: sim-script-gen --spd=D:\Documents\quartusIIdata\TesteSomador\SistemaEmbarcadoSubtrator_tb.spd --output-directory=D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/ --use-relative-paths=true
+Info: Doing: ip-make-simscript --spd=D:\Documents\quartusIIdata\TesteSomador\SistemaEmbarcadoSubtrator_tb.spd --output-directory=D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/ --use-relative-paths=true
+Info: Generating the following file(s) for MODELSIM simulator in D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/ directory:
+Info: 	mentor/msim_setup.tcl
+Info: Generating the following file(s) for VCS simulator in D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/ directory:
+Info: 	synopsys/vcs/vcs_setup.sh
+Info: Generating the following file(s) for VCSMX simulator in D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/ directory:
+Info: 	synopsys/vcsmx/synopsys_sim.setup
+Info: 	synopsys/vcsmx/vcsmx_setup.sh
+Info: Generating the following file(s) for NCSIM simulator in D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/ directory:
+Info: 	cadence/cds.lib
+Info: 	cadence/hdl.var
+Info: 	cadence/ncsim_setup.sh
+Info: 	37 .cds.lib files in cadence/cds_libs/ directory
+Info: Generating the following file(s) for RIVIERA simulator in D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/ directory:
+Info: 	aldec/rivierapro_setup.tcl
+Info: For information on how to simulate your IP, see the explanatory comments in the simulator-specific subdirectories under D:/Documents/quartusIIdata/TesteSomador/SistemaEmbarcadoSubtrator/testbench/.
+Info: Regenerate these scripts whenever you make any change to any Quartus-generated IP in your project.
+Info: Finished: Create testbench Platform Designer system
