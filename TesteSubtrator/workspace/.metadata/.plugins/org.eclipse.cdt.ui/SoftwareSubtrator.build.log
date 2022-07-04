@@ -1,0 +1,21 @@
+02:16:47 **** Incremental Build of configuration Nios II for project SoftwareSubtrator ****
+make all 
+Info: Building ../SoftwareSubtrator_bsp/
+C:/intelFPGA_lite/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../SoftwareSubtrator_bsp/
+[BSP build complete]
+Info: Compiling hello_world.c to obj/default/hello_world.o
+nios2-elf-gcc -xc -MP -MMD -c -I../SoftwareSubtrator_bsp//HAL/inc -I../SoftwareSubtrator_bsp/ -I../SoftwareSubtrator_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_INSTRUCTION_EMULATION -DALT_SINGLE_THREADED    -O0 -g -Wall   -mno-hw-div -mno-hw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world.o hello_world.c
+hello_world.c: In function 'main':
+hello_world.c:17:18: error: lvalue required as left operand of assignment
+  MEDIDOR_ESCRITA = 0;
+                  ^
+hello_world.c:18:18: error: lvalue required as left operand of assignment
+  MEDIDOR_ESCRITA = 1;
+                  ^
+hello_world.c:27:18: error: lvalue required as left operand of assignment
+  MEDIDOR_ESCRITA = 2;
+                  ^
+make: *** [obj/default/hello_world.o] Error 1
+
+02:16:49 Build Finished (took 1s.551ms)
+
