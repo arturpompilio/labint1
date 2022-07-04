@@ -12,19 +12,19 @@ begin
 
 	if (!reset_n)
 	begin
-		clk_cout <= 0;
+		clk_count <= 0;
 		flag <= 0;
 	end
 	else
 	begin
-		if (flag) clk_cout <= clk_count + 1;
+      if (flag) clk_count <= clk_count + 1;
 		if (enable && (command == 0))
 		begin
 			clk_count <= 0;
 			flag <= 0;
 		end
-		if (enable && (command == 0)) flag <= 1;
-		if (enable && (command == 0)) flag <= 0;
+		if (enable && (command == 1)) flag <= 1;
+		if (enable && (command == 2)) flag <= 0;
 	end
 
 end
