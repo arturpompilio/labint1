@@ -14,7 +14,7 @@ while (1)
     end
 end
 
-z = zeros(256*320,1);
+z = zeros(200*250,1);
 
 while (1)
     tline = fgetl(fid);
@@ -32,5 +32,5 @@ end
 
 zi = uint8(z);
 
-zx = reshape(zi,256,320);
+zx = reshape(zi,200,250);
 imwrite(zx,strcat(name,'.bmp'));
