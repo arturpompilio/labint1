@@ -2,11 +2,11 @@ clear();
 
 nomes = {'imagem1', 'imagem2'};
 word_len = 8;
-N = 256*320; %largura x altura (dimensões da imagem)
+N = 200*250; %largura x altura (dimensões da imagem)
 
 for i=1 : 2
   img = imread(strcat(nomes{i},'.bmp'));
-  imagem = imresize(img, [256, 320]);
+  imagem = imresize(img, [200, 250]);
   %gray = rgb2gray(imagem);     %descomente se a imagem for colorida
   %data = reshape(gray, 1, N);  %descomente se a imagem for colorida
   data = reshape(imagem, 1, N); %comente se a imagem for colorida
